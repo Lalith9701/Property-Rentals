@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Property Rentals</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<h1>Property Rentals</h1>
+</header>
+
+
+<main>
+<section id="add-property">
+<h2>Add property</h2>
+<form id="property-form">
+<input name="title" placeholder="Title" required>
+<input name="address" placeholder="Address" required>
+<input name="pricePerMonth" placeholder="Price per month" type="number" step="0.01" required>
+<input name="bedrooms" placeholder="Bedrooms" type="number" required>
+<input name="imageUrl" placeholder="Image URL (optional)">
+<textarea name="description" placeholder="Description"></textarea>
+<button type="submit">Add</button>
+</form>
+</section>
+
+
+<section id="properties">
+<h2>Available Properties</h2>
+<div id="list"></div>
+</section>
+</main>
+
+
+<script src="app.js"></script>
+</body>
+</html>
