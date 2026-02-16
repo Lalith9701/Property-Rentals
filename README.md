@@ -7,12 +7,12 @@ This project provides an intuitive platform for landlords to add or update prope
 
 ## 🚀 Features
 
-- 🏠 Add, view, update, and delete property listings  
-- 🔍 Search properties by location, price, and type  
-- ⚙️ RESTful API powered by Spring Boot  
-- 🎨 Responsive frontend using HTML5, CSS3, and JavaScript  
-- 💾 Data persistence with MySQL  
-- 🧩 Build automation using Apache Maven  
+- 🏠 Add, view, update, and delete property listings.  
+- 🔍 Search properties by location, price, and type.
+- ⚙️ RESTful API powered by Spring Boot.  
+- 🎨 Responsive frontend using HTML5, CSS3, and JavaScript.  
+- 💾 Data persistence with MySQL.  
+- 🧩 Build automation using Apache Maven.  
 
 ---
 
